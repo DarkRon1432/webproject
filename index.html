@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        
+        <div class="container">
+        <nav>
+            <a href="#" class="logo"><span>J</span>ohn</a>
+            <ul id="sidemenu">
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#language">language</a></li>
+                <li><a href="#animee">Anime</a></li>
+                <li><a href="#contact">Contact</a></li>              
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>IT Student</p>
+            <h1><span>Hi, I'm </span> John Erone<br>Julio</h1>
+        </div>
+        </div>
+    </div>
+                        <!----------  About --------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is John Erone Julio 20 years old from Boyog Norte Balilihan Bohol, 3rd year student currently taking Bachelor of science and information technology.One thing about me is I love talking about anime and exploring different genres, characters, and storylines and I believe anime has a special way of connecting with people through its emotions, lessons, and storytelling.</p>
+                    <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('food')">Fav Food</p>
+                            <p class="tab-links" onclick="opentab('anime')">Fav Anime</p>
+                            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                        </div>
+                        <!----------  food --------->
+                        <div class="tab-contents active-tab" id="food">
+                            <ul>
+                                <li><span>Fried Chicken</span></li>
+                                <li><span>Burger </span></li>
+                                <li><span>Mango Float</span></li>
+                            </ul>
+                        </div>
+                        <!----------  anime --------->
+                        <div class="tab-contents" id="anime">
+                            <ul>
+                                <li><span>One Piece</span></li>
+                                <li><span>Attack on titan</span></li>
+                                <li><span>Black Clover</span></li>
+                            </ul>
+                        </div>
+                        <!---------- hobbies --------->
+                        <div class="tab-contents" id="hobbies">
+                            <ul>
+                                <li><span>Playing Mobile Legends</span></li>
+                                <li><span>Hanging Out</span></li>
+                                <li><span>Playing Guitar</span></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------SCHOOL ATTENDED --------->
+                        <div id="language">
+                            <div class="container">
+                                <h1 class="sub-title"> Learned Coding Language</h1>
+                                <div class="language-list">
+                                    <div>
+                                        <h2>Java</h2>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quasi quos nostrum nobis officia mollitia quas maxime? Unde sit porro, dicta neque repellendus in quos eaque, doloremque qui quia error.</p>
+                                        
+                                    </div>
+                                    <div>
+                                        <h2>JavaScript</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium necessitatibus asperiores laboriosam quod, eum consequatur, nostrum voluptate nam dolorem quisquam rem quam totam, illo cupiditate dignissimos voluptates? Dolores, perferendis voluptatibus!</p>
+                                        
+                                    </div>
+                                    <div>
+                                        <h2>HTML + CSS</h2>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur minima, molestiae facilis animi quia dolorum harum ullam explicabo laborum temporibus porro eaque dignissimos sapiente libero adipisci dolore expedita sunt eveniet?</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!----------  anime --------->
+        <div id="animee">
+            <div class="fcontainer">
+                <h1 class="sub-title">Favorite Anime</h1>
+                <div class="fav-list">
+                    <div class="fav">
+                        <img src="Image/poster1.jpg">
+                        <div class="layer">
+                            <h1>Solo Leveling</h1>
+                                <p>Solo Leveling, also alternatively translated as Only I Level Up, is a South Korean portal fantasy web novel written by Chugong. It was serialized in Kakao's digital comic and fiction platform KakaoPage beginning on July 25, 2016, and was later published by D&C Media under their Papyrus label since November 4, 2016.</p>        
+                        </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/poster2.jpg">
+                        <div class="layer">
+                        <h1>The Breaker</h1>
+                            <p>Chunwoo, the last user of the Black Heaven and Earth Techniques, joins the Black Forest Defense group to avenge his master's death. He infiltrates Seoul to complete a mission and teaches martial arts to Shiwoon Yi. Chunwoo's lover, Shiho Lee, is killed by the Martial Arts Alliance, which further fuels his hatred.</p>        
+                    </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/poster3.jpg">
+                        <div class="layer">                       
+                        <h1>Lookism</h1>
+                        <p>Daniel Park is an unpopular and bullied high school student who moves to Seoul to start over. Before he begins school, he wakes up in a new body that is tall, muscular, and handsome. He can switch between the two bodies, with the handsome one appearing when he's awake and the original when he's sleeping.</p>        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <!----------  Contact --------->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-center">
+                <h1 class="sub-title">Contact</h1>
+                <div class="typeofcontact">
+                    <div>
+                        <h2></i><br>Email</h2>
+                        <p>john_erone.julio@edu.ph</p>
+                        
+                    </div>
+                    <div>
+                        <h2><br>Phone Number</h2>
+                        <p>09509587636</p>
+                        
+                    </div>
+                    <div>
+                        
+                        <h2><br>FaceBook</h2>
+                        <p>John Erone Julio</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>&copy; 2024 John Michael Mediana. All rights reserved.</p>
+    </footer>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link"); 
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab"); 
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemeno = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeno.style.right = "0";
+        }
+        function closemenu(){
+            sidemeno.style.right = "-500px";
+        }
+    </script>
+</body>
+</html>
